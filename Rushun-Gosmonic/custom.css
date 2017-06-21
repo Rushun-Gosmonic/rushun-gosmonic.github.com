@@ -1,0 +1,350 @@
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: Montserrat,"Helvetica Neue", Helvetica, Arial, "游ゴシック体", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    line-height: 1.75;
+    background-color: #fffffc;
+}
+
+.navbar{
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #291a10;
+    color: #fff;
+}
+
+.navbar a{
+    font-weight: 700;
+    font-size: 16px;
+    color:#fff;
+}
+
+.navbar-toggle{
+    color:#fff;
+}
+
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 0 auto;
+}
+
+footer .footer-below {
+    padding-top: 50px;
+}
+
+
+.btn-primary{color:#fff;background-color:#291a10;border-color:black}.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.open>.dropdown-toggle.btn-primary{color:#fff;background-color:olive;border-color:#204d74}.btn-primary.active,
+
+
+.btn-secondry{color:#291a10;background-color:orange;border-color:black}.btn-primary.active,
+.btn-secondry.focus,
+.btn-secondry:active,
+.btn-secondry:focus,
+.btn-secondry:hover,
+.open>.dropdown-toggle.btn-secondry{color:#fff;background-color:red;border-color:#204d74}.btn-primary.active,
+
+
+.btn-tertiary{color:#291a10;background-color:#66CC66;border-color:black}.btn-primary.active,
+.btn-tertiary.focus,
+.btn-tertiary:active,
+.btn-tertiary:focus,
+.btn-tertiary:hover,
+.open>.dropdown-toggle.btn-tertiary{color:#fff;background-color:#006600;border-color:#204d74}.btn-primary.active,
+
+
+.tag{
+	padding:0.5em 0 0 1em;
+}
+
+.tag li{
+	border-style: solid;
+	border-width: 1px;
+	font-size:0.8em;
+	background-color:#eee;
+}
+
+h5{
+	text-align: right;
+}
+
+.date{
+	text-align: right;
+	font-size:0.8em;
+}
+
+.page-header{
+	border-width: 5px;
+}
+
+hr{
+	border-style: dotted;
+	border-width: 1px;
+}
+
+.mainImage{
+	margin:5px;
+}
+
+.thumb {
+    margin-bottom: 25px;
+}
+
+
+
+.download{
+	margin-top:50px;
+	text-align: center;
+	font-size:0.8em;
+}
+.download a{
+	margin:5px;
+	width:200px;
+}
+
+.outline{
+    text-align: left;
+    margin:10px;
+}
+
+.outline dt{
+	border-style: solid;
+	border-width: 1px;
+	clear: left;
+	float: left;
+	padding: 2px;
+	width: 6em;
+	background-color:lightgoldenrodyellow;
+}
+
+.outline dd{
+   padding: 4px;
+   padding-left:7em;
+}
+
+
+.red{
+	color: red;
+}
+
+
+.text_go_link{
+    text-align: right;
+}
+
+
+#Text{
+border:1px solid #999999;
+	padding:0 3em;
+}
+
+
+
+/*　質問用　*/
+
+.cent{
+	text-align: center;
+}
+
+div.q {
+	border: 1px dotted #291a10;
+	background-image: url('/game/crown/img/q.gif');
+	background-potision: top center;
+	background-repeat:no-repeat;
+	text-align: left;
+	width: 600px;
+	margin:15px auto;
+	padding-top:80px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:10px;
+}
+
+div.a {
+	border: 1px dotted #291a10;
+	background-image: url('/game/crown/img/a.gif');
+	background-potision: top center;
+	background-repeat:no-repeat;
+	text-align: left;
+	width: 600px;
+	margin:15px auto;
+	padding-top:80px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:10px;
+}
+
+div.tana {
+	background-image: url('/game/crown/img/tana.gif');
+	background-potision: middle left;
+	background-repeat:no-repeat;
+	text-align: left;
+	width: 500px;
+	min-height:85px;
+	margin:0;
+	padding-top:0px;
+	padding-left:85px;
+	padding-right:0px;
+	padding-bottom:0px;
+}
+
+div.yuri {
+	background-image: url('/game/crown/img/yuri.gif');
+	background-potision: middle left;
+	background-repeat:no-repeat;
+	text-align: left;
+	width: 500px;
+	min-height:85px;
+	margin:0;
+	padding-top:0px;
+	padding-left:85px;
+	padding-right:0px;
+	padding-bottom:0px;
+}
+
+ul.qa{
+	margin-right:100px;
+}
+
+
+/*　イラスト用　*/
+
+.menu{
+	font-size:small;
+	text-align:center;
+	margin:100px auto;
+
+}
+
+#main h2 {
+  position: relative;
+  color: #111;
+  background: #ccc;
+  font-size: 20px;
+  line-height: 1;
+  margin: 30px 0 10px 0;
+  padding: 14px 5px 10px 40px;
+  box-shadow: 0 1px 3px #777;
+  border-radius: 0 10px 10px 0;
+}
+#main h2:before {
+  content: "";
+  position: absolute;
+  background: #999;
+  top: 50%;
+  left: -20px;
+  margin-top :-22px;
+  height: 44px;
+  width: 44px;
+  box-shadow: 1px 1px 1px #777;
+  border-radius: 50%;
+}
+#main h2:after {
+  content: "";
+  position: absolute;
+  background:#777;
+  top: 50%;
+  left: -15px;
+  margin-top:-15px;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+
+#side h2{
+	position:relative;
+	padding:9px;
+	padding-left:0px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#side h2:before{
+	content:''; 
+	height:15px; 
+	width: 100%;
+	display:block; 
+	position:absolute; 
+	top:18px; 
+	left:0px; 
+	background-color:#ccc;
+	filter:alpha(opacity=20);
+	-moz-opacity:0.20;
+	-khtml-opacity: 0.20;
+	opacity:0.20;
+	box-shadow: 0px 3px 3px 3px rgba(255,255,255, 0.3) inset;
+}
+
+/*　引用　*/
+
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 0 0 20px;
+  position: relative;
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: small;
+  line-height: 1.5;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-left: 15px solid #cccccc;
+  border-right: 2px solid #cccccc;
+  
+  /*Box Shadow - (Optional)*/
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+}
+
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
+
+blockquote::after{
+  /*Reset to make sure*/
+  content: "";
+}
+
+blockquote a{
+  text-decoration: none;
+  background: #eee;
+  cursor: pointer;
+  padding: 0 3px;
+  color: #c76c0c;
+}
+
+blockquote a:hover{
+ color: #666;
+}
+
+blockquote em{
+  font-style: italic;
+}
+
