@@ -169,8 +169,77 @@ h2.about {
 h2.about span {
 	display:none;
 	}		
+	
+	
+	
+#more {
+    width: 980px;
+	background:url(../Rushun-Gosmonic/bz03.jpg) top no-repeat;
+	background-size:980px auto;
+	background-repeat:no-repeat;
+    padding: 3em 3em;
+	border-style: solid;
+    border-color: #999;
+	border-width: 1px;
+	display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -o-flexbox;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}	
+	
+.guest {
+    margin-top:20px;
+    width: 100%;
+    max-width: 1360px;
+    display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -o-flexbox;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 
+.case {
+    float: left;
+    border-style: solid;
+    border-color: #CCC;
+	margin:20px;
+    padding: 4px;
+    width: 260px;
+    height: auto;
+    border-width: 1px;
+}
 
+.text{
+	margin-top:4em;
+    padding: 2em 14em;
+	border-style:solid none;
+	border-color:#CCC;
+	border-width:2px;
+}
+
+#ticket {
+    width: 980px;
+	background:url(../Rushun-Gosmonic/concert.jpg) top no-repeat;
+	background-size:980px auto;
+	background-repeat:no-repeat;
+	margin-top:2em;
+    padding: 3em 3em;
+	border-style: solid;
+    border-color: #999;
+	border-width: 1px;
+	display: -webkit-flexbox;
+    display: -moz-flexbox;
+    display: -o-flexbox;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+}	
 
 	
 	
@@ -212,7 +281,7 @@ blockquote p {
 
 p {
 	font-size:115%;
-	color:#626f55;
+	color:#999;
 	letter-spacing:-0.05em;
 	padding:0px 60px 0px 60px;
 	margin:0px 0px 30px 0px;
@@ -220,10 +289,17 @@ p {
 	text-align:center;
 }	
 
+em {
+    font-size: 16px;
+    color: #CCC;
+    margin-bottom: 5px;
+}
 
-
-
-
+b {
+    font-weight: normal;
+    font-size: 12px;
+    color: #999;
+}
 
 
 
@@ -269,7 +345,7 @@ a:hover {
 
 table {
 	float:left;
-	width:380px;
+	width:780px;
 	margin:0px 0px 30px 80px;
 }
 
