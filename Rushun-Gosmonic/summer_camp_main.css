@@ -236,7 +236,6 @@ h2.about span {
     display: -moz-flexbox;
     display: -o-flexbox;
     display: -ms-flexbox;
-    display: flex;
     flex-flow: row wrap;
     justify-content:center;
 }	
@@ -335,7 +334,26 @@ a:hover {
 }	
 
 
+.signUpThree {
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:230%;
+	font-weight:bold;
+	background:#00a7a9;
+	padding:15px;
+	color:#fff;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	text-decoration:none;
+	width:200px;
+	letter-spacing:-0.08em;
+	text-align:center;
+	display:block;
+	margin:20px auto 40px auto;
+}	
 
+.signUpThree:hover {
+	background:#eb473b;
+}	
 
 
 
